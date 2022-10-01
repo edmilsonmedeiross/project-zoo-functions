@@ -1,14 +1,14 @@
 const data = require('../data/zoo_data');
 const { prices } = require('../data/zoo_data');
 
-const entrants1 = [
+/* const entrants1 = [
   { name: 'Lara Carvalho', age: 5 },
   { name: 'Frederico Moreira', age: 5 },
   { name: 'Pedro Henrique Carvalho', age: 5 },
   { name: 'Maria Costa', age: 18 },
   { name: 'Núbia Souza', age: 18 },
   { name: 'Carlos Nogueira', age: 50 },
-];
+]; */
 
 const countChild = (array) => {
   if (!array) return 0;
